@@ -12,8 +12,31 @@
 
 ---
 
+## 🎥 Live Demo
+
+🌐 **Live Application:** [https://finguard-safetyos.vercel.app](https://github.com/AnuragKannojiya/FinGuard-SafetyOS) *(Deployment Pending)*
+
+🎬 **Demo Video:** [Google Drive Video Link](https://github.com/AnuragKannojiya/FinGuard-SafetyOS) *(Walkthrough Uploaded)*
+
+📑 **Presentation Deck:** [FinGuard_SafetyOS_Deck.pdf](public/PROJECT_DOCUMENTATION.pdf)
+
+---
+
+## ⭐ Repository Highlights
+
+* 🤖 **5-Agent Sequential AI Pipeline** (Sensor ➔ Vision ➔ Permit ➔ Risk ➔ Emergency)
+* ⚠️ **Compound Risk Detection Engine** (Multi-variable risk correlation rules)
+* 📍 **Geospatial Plant Digital Twin** (Real-time zone monitoring and heatmaps)
+* 📚 **Regulatory RAG Copilot** (Contextual retrieval from OISD & Factories Act standards)
+* 🎥 **CCTV PPE Analytics** (Prototype computer vision tracking helmet & shield compliance)
+* 🚨 **Emergency Response Orchestrator** (SCADA interlocks & autonomous evacuation logic)
+* 📊 **Explainable AI (XAI)** (Traceable formula weights and transparent reasoning logs)
+* 🧠 **Historical Incident Intelligence** (Precursor similarity matching)
+
+---
+
 ## 🎯 1. Project Overview
-**FinGuard SafetyOS** is an autonomous safety intelligence platform designed to eliminate fatal accidents in high-risk industrial environments (steel plants, chemical refineries, mines). By fusing real-time IoT sensor telemetry, SCADA status logs, digital permit-to-work (PTW) records, and CCTV computer vision streams, SafetyOS acts as the missing intelligence layer. It correlates multiple weak hazard signals into explainable compound risk assessments, allowing industrial plants to transition from reactive disaster management to proactive, zero-harm prevention.
+**FinGuard SafetyOS** is an autonomous safety intelligence platform designed to **help reduce the likelihood of industrial accidents through earlier detection and decision support** in high-risk industrial environments (steel plants, chemical refineries, mines). By fusing real-time IoT sensor telemetry, SCADA status logs, digital permit-to-work (PTW) records, and CCTV computer vision streams, SafetyOS acts as the missing intelligence layer. It correlates multiple weak hazard signals into explainable compound risk assessments, allowing industrial plants to transition from reactive disaster management to proactive prevention.
 
 ---
 
@@ -29,7 +52,7 @@ Because no single layer correlated these multiple, low-intensity indicators, the
 
 ## 📉 3. Why Existing Systems Fail
 Modern Industrial Control Systems (ICS) suffer from three critical limitations:
-1. **Single-Threshold Alarms:** SCADA systems only trigger when a single sensor breaches an absolute value (e.g., $Gas > 15\text{ ppm}$). They are blind to multi-variable correlations.
+1. **Single-Threshold Alarms:** SCADA systems only trigger when a single sensor breaches an absolute value (e.g., Gas > 15 ppm). They are blind to multi-variable correlations.
 2. **Context Blindness:** Process instrumentation systems (DCS/SCADA) operate independently of administrative safety software (Permits, shift change logs, OISD compliance matrices).
 3. **Zero Lead Time:** Simple absolute thresholds provide minutes—rather than hours—of warning, offering no predictive buffer to perform safe shutdowns or evacuations.
 
@@ -135,13 +158,16 @@ Under the Command Center, operators can click on the **Pipeline Execution Trace*
 ## 🎛️ 8. Explainable Compound Risk Calculations
 Every hazard is calculated using a transparent weighting system, rather than an uninterpretable AI prediction model:
 
-$$\text{Compound Risk Score} = \text{Min}\left(100, \frac{\sum (Factor\_Score_i \times Weight_i)}{\sum Weight_i}\right)$$
+```
+Compound Risk Score = Min(100, Sum(Factor_Score_i * Weight_i) / Sum(Weight_i))
+```
 
-* **Gas Telemetry ($35\%$ Weight):** Derived from rate of rise ($\frac{dC}{dt}$) and projected breach times.
-* **Permit Conflicts ($25\%$ Weight):** Identifies active permits (e.g., Hot Work) operating near gas anomalies.
-* **PPE Violations ($15\%$ Weight):** Logged by CCTV analytics for missing masks, face shields, or helmets.
-* **Shift Handover Gaps ($10\%$ Weight):** Temporal risk factor added during critical shift changes.
-* **Historical Pattern ($15\%$ Weight):** Correlation similarity against historical disaster pre-cursors.
+Where:
+* **Gas Telemetry (35% Weight):** Derived from rate of rise (dC/dt) and projected limit breaches.
+* **Permit Conflicts (25% Weight):** Identifies active permits (e.g., Hot Work) operating near gas anomalies.
+* **PPE Violations (15% Weight):** Logged by CCTV analytics for missing safety wear.
+* **Shift Handover Gaps (10% Weight):** Temporal risk factor added during critical shift changes.
+* **Historical Pattern (15% Weight):** Correlation similarity against historical disaster pre-cursors.
 
 ---
 
@@ -235,7 +261,7 @@ Phase 1: Local Prototype (Current) ➔ Phase 2: Pilot Deployment ➔ Phase 3: En
 * **Anurag Kannojiya** — *Systems Architect & Pipeline Engineer* (Owner)
 * **Akshu Mishra** — *UI/UX Architect & Safety Logic Developer* (Collaborator)
 
-*Special thanks to the open-source communities behind Next.js, Framer Motion, and Tailwind CSS. Built to demonstrate how agentic AI and multi-variable risk analysis can protect industrial workers.*
+*Special thanks to the open-source communities behind Next.js, Framer Motion, and Tailwind CSS. Built to demonstrate how agentic AI and multi-variable risk analysis can improve industrial safety.*
 
 ---
 
