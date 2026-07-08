@@ -34,3 +34,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Project Details
+- **Project Name:** FinGuard SafetyOS
+- **Hackathon:** ET AI Hackathon 2.0
+- **Theme:** Industrial Intelligence / Worker Safety / Geospatial Safety Analytics
+- **Problem Statement:** AI-Powered Industrial Safety Intelligence for Zero-Harm Operations
+
+## Team Contributors
+- **Anurag Kannojiya** (@AnuragKannojiya)
+- **Akshu Mishra** (@akshu-mishra07)
+
