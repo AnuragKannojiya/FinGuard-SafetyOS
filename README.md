@@ -186,12 +186,12 @@ When asked questions like *"What is the gas testing rule for hot work?"*, the Co
 ### Command Center Digital Twin & Pipeline Trace
 The main dashboard visualizes active plant risk, digital twin worker locations, active process unit health, and the live multi-agent execution pipeline:
 
-![SafetyOS Dashboard Mockup](public/screenshots/dashboard_mockup.jpg)
+![SafetyOS Dashboard Mockup](public/screenshots/dashboard_mockup.png)
 
 ### Explainable AI Reasoning Widget
 Clicking on any active risk card opens the AI Reasoning drawer, breaking down the compound risk formula weights, OISD compliance checklist status, and prioritized mitigation recommendations:
 
-![Explainable AI Reasoning Mockup](public/screenshots/ai_reasoning_mockup.jpg)
+![Explainable AI Reasoning Mockup](public/screenshots/ai_reasoning_mockup.png)
 
 ---
 
