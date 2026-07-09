@@ -1,4 +1,4 @@
-# 🏭 FinGuard SafetyOS
+# 🏭 FinGuard SafetyOS-ET2026-2.0
 ### *Autonomous AI-Powered Industrial Safety Intelligence Platform for Zero-Harm Operations*
 
 ---
@@ -7,8 +7,7 @@
 [![React 19](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.0-38bdf8?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
-[![ET AI Hackathon 2026](https://img.shields.io/badge/ET%20AI%20Hackathon-2026-orange?style=flat-square)](https://unstop.com/)
+[![ET AI Hackathon 2026 2.0](https://img.shields.io/badge/ET%20AI%20Hackathon-2026-orange?style=flat-square)](https://unstop.com/competitions/crp-et-ai-hackathon-20-economic-times-1675680)
 
 ---
 
@@ -259,11 +258,7 @@ Phase 1: Local Prototype (Current) ➔ Phase 2: Pilot Deployment ➔ Phase 3: En
 
 ## 👥 15. Contributors & Acknowledgements
 * **Anurag Kannojiya** — *Systems Architect & Pipeline Engineer* (Owner)
-* **Akshu Mishra** — *UI/UX Architect & Safety Logic Developer* (Collaborator)
+* **Akanksha Mishra** — *UI/UX Architect & Safety Logic Developer* (Collaborator)
 
 *Special thanks to the open-source communities behind Next.js, Framer Motion, and Tailwind CSS. Built to demonstrate how agentic AI and multi-variable risk analysis can improve industrial safety.*
 
----
-
-## 📄 16. License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
