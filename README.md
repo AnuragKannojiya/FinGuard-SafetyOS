@@ -15,7 +15,7 @@
 
 🌐 **Live Application:** [https://safety-intel.vercel.app](https://safety-intel.vercel.app) *(Live on Vercel)*
 
-🎬 **Demo Video:** [Google Drive Video Link](https://github.com/AnuragKannojiya/FinGuard-SafetyOS) *(Walkthrough Uploaded)*
+🎬 **Demo Video:** [Watch Demo Video](https://drive.google.com/file/d/1NyWfq34OatpNs-S3Dka99hpR8Pb3k0Da/view?usp=sharing) *(Walkthrough Uploaded)*
 
 📑 **Presentation Deck:** [FinGuard_SafetyOS_Deck.pdf](public/PROJECT_DOCUMENTATION.pdf)
 
